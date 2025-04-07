@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="header" style={{ fontFamily: "GL Tatishvili Metal" }}>
+      <div className="header">
         <div className="header-left">
           <img
             src="src/assets/logo/logoWhite.png"
@@ -18,22 +18,22 @@ const Header = () => {
           <ul className={`header-list ${menuOpen ? "open" : ""}`}>
             <li className="header-list-item">
               <a href="#" className="list-link">
-                Main
+                მთავარი
               </a>
             </li>
             <li className="header-list-item">
               <a href="#" className="list-link">
-                Product
+                პროდუქტი
               </a>
             </li>
             <li className="header-list-item">
               <a href="#" className="list-link">
-                Contact
+                კონტაქტი
               </a>
             </li>
             <li className="header-list-item">
               <a href="#" className="list-link">
-                ქარ
+                En
               </a>
             </li>
           </ul>
