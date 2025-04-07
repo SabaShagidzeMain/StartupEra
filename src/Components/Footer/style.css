@@ -1,0 +1,20 @@
+.footer-wrapper {
+  display: flex;
+  padding: 1rem 10rem;
+  box-shadow: 0 0 10px black;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
+    flex-direction: column-reverse;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-wrapper p {
+    width: 50%;
+  }
+}

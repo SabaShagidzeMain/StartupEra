@@ -4,6 +4,8 @@ import Header from "./Components/Header/Header";
 import Landing from "./Components/Landing/Landing";
 import LandingCarousel from "./Components/LandingCarousel/LandingCarousel";
 import AboutCards from "./Components/AboutCards/AboutCards";
+import Footer from "./Components/Footer/Footer";
+import Team from "./Components/Team/Team";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,6 +21,8 @@ function App() {
         <Landing />
         <LandingCarousel />
         <AboutCards />
+        <Team />
+        <Footer />
       </div>
     </>
   );
