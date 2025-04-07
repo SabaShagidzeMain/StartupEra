@@ -1,0 +1,44 @@
+.carousel-track {
+  display: flex;
+  gap: 4rem;
+  padding: 1rem 2rem;
+}
+
+.carousel-item {
+  flex: 0 0 calc(100% / 6.5);
+  scroll-snap-align: start;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #222;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.slick-slide {
+  margin: 1rem;
+}
+
+/* Mobile responsive: show 1.5 items */
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 calc(100% / 2.5);
+  }
+}
+
+.slick-track {
+  scroll-snap-type: none !important;
+  display: flex !important;
+  overflow: unset !important;
+}
+
+.slick-list {
+  scroll-snap-type: none !important;
+}
