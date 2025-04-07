@@ -1,23 +1,21 @@
 import React from "react";
 import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const Landing = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="landing-wrapper">
-        <h1>მთლიანი სტარტაპ ეკოსისტემა შენს ხელებში</h1>
-        <p>
-          სტარტაპერა არის ინოვაციური მობილური აპლიკაცია, რომელიც ქმნის ერთიან
-          ციფრულ ეკოსისტემას სტარტაპების, მენტორების, აქსელერატორებისა და
-          ინვესტორების დასაკავშირებლად
-        </p>
+        <h1>{t("landingHeader")}</h1>
+        <p>{t("landingText")}</p>
         <div className="email-input">
           <input
             type="text"
-            placeholder="ჩაწერე შენი ელ-ფოსტა..."
+            placeholder={t("emailPlaceHolder")}
             className="input-form"
           />
-          <button className="input-button">ადრეული წვდომის მიღება</button>
+          <button className="input-button">{t("landingButton")}</button>
         </div>
       </div>
     </>

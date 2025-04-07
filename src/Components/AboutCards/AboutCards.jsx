@@ -1,37 +1,27 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const AboutCards = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="about-wrapper">
         <div className="about-header">
-          <h2>ძირითადი ფუნქციები</h2>
+          <h2>{t("aboutHeader")}</h2>
         </div>
         <div className="about-card-wrapper">
           <div className="about-card">
-            <h3>აირჩიო როლი</h3>
-            <p>
-              შეგიძლია დარეგისტრირდე როგორც სტარტაპერი, მენტორი, აქსელერატორი ან
-              ინვესტორი, და გქონდეს პერსონალური პროფილი, რომლითაც პლატფორმაზე
-              გაეცნობი ყველა წევრს
-            </p>
+            <h3>{t("abt1hd")}</h3>
+            <p>{t("abt1txt")}</p>
           </div>
           <div className="about-card">
-            <h3>გაეცნო მხარეებს</h3>
-            <p>
-              პერსონალური პროფილის შექმნის შემდეგ, გაეცნობი ქართულ სტარტაპებს,
-              მენტორებს, აქსელერაციებს, ინვესტორებს და მიიღებ ყველა საჭირო თუ
-              აქტუალურ ინფორმაციას
-            </p>
+            <h3>{t("abt2hd")}</h3>
+            <p>{t("abt2txt")}</p>
           </div>
           <div className="about-card">
-            <h3>დაჯავშნო შეხვედრა</h3>
-            <p>
-              საშუალება გექნება დაჯავშნო მოკლე შეხვედრა შენთვის სასურველ
-              მხარესთან, და მიიღო ყველა საჭირო ინფორმაცია, რომელიც სჭირდება შენი
-              როლის განვითარებას ეკოსისტემაში
-            </p>
+            <h3>{t("abt3hd")}</h3>
+            <p>{t("abt3txt")}</p>
           </div>
         </div>
       </div>

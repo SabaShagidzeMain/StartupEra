@@ -1,9 +1,14 @@
-#root {
-  max-width: 100%;
-  background-color: #17181D;
-  height: fit-content;
+* {
+  box-sizing: border-box;
 }
 
 html {
-  background-color: #17181D;
+  background-color: #17181d;
+  height: 100%; /* Ensures the background color fills the viewport */
+}
+
+#root {
+  max-width: 100%;
+  height: 100%; /* Makes sure the root div takes full height if needed */
+  background-color: #17181d; /* Optional, depends on if you want a background color on the root div */
 }

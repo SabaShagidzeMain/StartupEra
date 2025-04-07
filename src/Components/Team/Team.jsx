@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const Team = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="team-wrapper">
-        <h2 className="team-header">ვინ ვართ ჩვენ</h2>
+        <h2 className="team-header">{t("teamHd")}</h2>
         <div className="team-card-wrapper">
           <div className="team-card">
             <div className="image-wrapper">
@@ -17,7 +19,7 @@ const Team = () => {
             </div>
             <div className="card-bot">
               <div className="card-left">
-                <p>თიკა მაწიაშვილი</p>
+                <p>{t("team1")}</p>
                 <p>CPO</p>
               </div>
               <div className="card-right">
@@ -35,7 +37,7 @@ const Team = () => {
             </div>
             <div className="card-bot">
               <div className="card-left">
-                <p>საბა შაგიძე</p>
+                <p>{t("team2")}</p>
                 <p>CTO</p>
               </div>
               <div className="card-right">
@@ -53,7 +55,7 @@ const Team = () => {
             </div>
             <div className="card-bot">
               <div className="card-left">
-                <p>ზურა წიკლაური</p>
+                <p>{t("team3")}</p>
                 <p>CMO</p>
               </div>
               <div className="card-right">
@@ -71,7 +73,7 @@ const Team = () => {
             </div>
             <div className="card-bot">
               <div className="card-left">
-                <p>თორნიკე რამაზაშვილი</p>
+                <p>{t("team4")}</p>
                 <p>COO</p>
               </div>
               <div className="card-right">
