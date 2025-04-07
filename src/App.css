@@ -1,5 +1,9 @@
 #root {
   max-width: 100%;
   background-color: #17181D;
-  height: 100vh;
+  height: fit-content;
+}
+
+html {
+  background-color: #17181D;
 }
