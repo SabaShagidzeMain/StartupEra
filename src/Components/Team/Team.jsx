@@ -13,7 +13,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/tika.png"
+                src="/public/team/tika.png"
                 alt=""
               />
             </div>
@@ -27,7 +27,7 @@ const Team = () => {
                   href="https://www.linkedin.com/in/tikamatsiashvili/"
                   target="_blank"
                 >
-                  <img src="src/assets/team/linkedin.png" alt="" />
+                  <img src="/public/team/linkedin.png" alt="" />
                 </a>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/saba.png"
+                src="/public/team/saba.png"
                 alt=""
               />
             </div>
@@ -50,7 +50,7 @@ const Team = () => {
                   href="https://www.linkedin.com/in/saba-shagidze/"
                   target="_blank"
                 >
-                  <img src="src/assets/team/linkedin.png" alt="" />
+                  <img src="/public/team/linkedin.png" alt="" />
                 </a>
               </div>
             </div>
@@ -59,7 +59,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/zura.png"
+                src="/public/team/zura.png"
                 alt=""
               />
             </div>
@@ -70,7 +70,7 @@ const Team = () => {
               </div>
               <div className="card-right">
                 <a href="https://www.linkedin.com/in/zura-wiklauri-b2753a244/" target="blank">
-                  <img src="src/assets/team/linkedin.png" alt="" />
+                  <img src="/public/team/linkedin.png" alt="" />
                 </a>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="/assets/team/tornike.png"
+                src="public/team/tornike.png"
                 alt=""
               />
             </div>
@@ -90,7 +90,7 @@ const Team = () => {
               </div>
               <div className="card-right">
                 <a href="https://www.linkedin.com/in/tornikeramazashvili/" target="_blank">
-                  <img src="src/assets/team/linkedin.png" alt="" />
+                  <img src="public/team/linkedin.png" alt="" />
                 </a>
               </div>
             </div>

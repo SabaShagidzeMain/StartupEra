@@ -3,13 +3,13 @@ import "./style.css";
 import Slider from "react-slick";
 
 const illustrations = [
-  "src/assets/Illustrations/Dr1.png",
-  "src/assets/Illustrations/Dr2.png",
-  "src/assets/Illustrations/Dr3.png",
-  "src/assets/Illustrations/Dr4.png",
-  "src/assets/Illustrations/Dr5.png",
-  "src/assets/Illustrations/Dr6.png",
-  "src/assets/Illustrations/Dr7.png",
+  "/public/Illustrations/Dr1.png",
+  "/public/Illustrations/Dr2.png",
+  "/public/Illustrations/Dr3.png",
+  "/public/Illustrations/Dr4.png",
+  "/public/Illustrations/Dr5.png",
+  "/public/Illustrations/Dr6.png",
+  "/public/Illustrations/Dr7.png",
 ];
 
 const LandingCarousel = () => {
