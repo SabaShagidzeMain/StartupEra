@@ -23,17 +23,17 @@ const Header = () => {
       <div className="header-right">
         <ul className={`header-list ${menuOpen ? "open" : ""}`}>
           <li className="header-list-item">
-            <a href="#" className="list-link">
+            <a href="#Main" className="list-link">
               {t("main")}
             </a>
           </li>
           <li className="header-list-item">
-            <a href="#" className="list-link">
+            <a href="#About" className="list-link">
               {t("product")}
             </a>
           </li>
           <li className="header-list-item">
-            <a href="#" className="list-link">
+            <a href="#Contact" className="list-link">
               {t("contact")}
             </a>
           </li>

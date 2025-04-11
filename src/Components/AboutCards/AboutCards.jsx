@@ -6,7 +6,7 @@ const AboutCards = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="about-wrapper">
+      <div id="About" className="about-wrapper">
         <div className="about-header">
           <h2>{t("aboutHeader")}</h2>
         </div>

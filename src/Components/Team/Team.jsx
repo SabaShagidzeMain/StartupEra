@@ -12,7 +12,7 @@ const Team = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="team-wrapper">
+      <div id="Contact" className="team-wrapper">
         <h2 className="team-header">{t("teamHd")}</h2>
         <div className="team-card-wrapper">
           <div className="team-card">

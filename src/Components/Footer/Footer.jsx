@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className="footer-wrapper">
         <p className="copyright">©2025 {t("footerTxt")}</p>
-        <p className="email">Dummytext@gmail.com</p>
+        <p className="email">Contact.Startupera@gmail.com</p>
       </div>
     </>
   );

@@ -64,16 +64,17 @@ const Landing = () => {
         }
       );
       setMessage(t("emailReply2"));
+      setEmail("");
     } catch (err) {
       console.error(err);
       setMessage(t("emailReply3"));
     } finally {
-      setIsLoading(false); // Deactivate loading state
+      setIsLoading(false);
     }
   };
 
   return (
-    <div className="landing-wrapper">
+    <div id="Main" className="landing-wrapper">
       <h1>{t("landingHeader")}</h1>
       <p>{t("landingText")}</p>
       <div className="email-input">
