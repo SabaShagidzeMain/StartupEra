@@ -79,7 +79,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/tornike.png"
+                src="/assets/team/tornike.png"
                 alt=""
               />
             </div>
