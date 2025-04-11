@@ -13,7 +13,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/tornike.png"
+                src="src/assets/team/tika.png"
                 alt=""
               />
             </div>
@@ -23,7 +23,12 @@ const Team = () => {
                 <p>CPO</p>
               </div>
               <div className="card-right">
-                <img src="src/assets/team/linkedin.png" alt="" />
+                <a
+                  href="https://www.linkedin.com/in/tikamatsiashvili/"
+                  target="_blank"
+                >
+                  <img src="src/assets/team/linkedin.png" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -31,7 +36,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/tornike.png"
+                src="src/assets/team/saba.png"
                 alt=""
               />
             </div>
@@ -41,7 +46,12 @@ const Team = () => {
                 <p>CTO</p>
               </div>
               <div className="card-right">
-                <img src="src/assets/team/linkedin.png" alt="" />
+                <a
+                  href="https://www.linkedin.com/in/saba-shagidze/"
+                  target="_blank"
+                >
+                  <img src="src/assets/team/linkedin.png" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -49,7 +59,7 @@ const Team = () => {
             <div className="image-wrapper">
               <img
                 className="team-card-image"
-                src="src/assets/team/tornike.png"
+                src="src/assets/team/zura.png"
                 alt=""
               />
             </div>
@@ -59,7 +69,9 @@ const Team = () => {
                 <p>CMO</p>
               </div>
               <div className="card-right">
-                <img src="src/assets/team/linkedin.png" alt="" />
+                <a href="https://www.linkedin.com/in/zura-wiklauri-b2753a244/" target="blank">
+                  <img src="src/assets/team/linkedin.png" alt="" />
+                </a>
               </div>
             </div>
           </div>
@@ -77,7 +89,9 @@ const Team = () => {
                 <p>COO</p>
               </div>
               <div className="card-right">
-                <img src="src/assets/team/linkedin.png" alt="" />
+                <a href="https://www.linkedin.com/in/tornikeramazashvili/" target="_blank">
+                  <img src="src/assets/team/linkedin.png" alt="" />
+                </a>
               </div>
             </div>
           </div>
