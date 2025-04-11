@@ -2,14 +2,22 @@ import React from "react";
 import "./style.css";
 import Slider from "react-slick";
 
+import Dr1 from "/public/Illustrations/Dr1.png";
+import Dr2 from "/public/Illustrations/Dr2.png";
+import Dr3 from "/public/Illustrations/Dr3.png";
+import Dr4 from "/public/Illustrations/Dr4.png";
+import Dr5 from "/public/Illustrations/Dr5.png";
+import Dr6 from "/public/Illustrations/Dr6.png";
+import Dr7 from "/public/Illustrations/Dr7.png";
+
 const illustrations = [
-  "/public/Illustrations/Dr1.png",
-  "/public/Illustrations/Dr2.png",
-  "/public/Illustrations/Dr3.png",
-  "/public/Illustrations/Dr4.png",
-  "/public/Illustrations/Dr5.png",
-  "/public/Illustrations/Dr6.png",
-  "/public/Illustrations/Dr7.png",
+  Dr1,
+  Dr2,
+  Dr3,
+  Dr4,
+  Dr5,
+  Dr6,
+  Dr7,
 ];
 
 const LandingCarousel = () => {
