@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./style.css";
 
+import Logo from "/public/logo/logowhite.png";
+
 import i18next from "../../i18n";
 
 const Header = () => {
@@ -16,11 +18,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-left">
-        <img
-          src="src/assets/logo/logoWhite.png"
-          alt="logo"
-          className="header-logo"
-        />
+        <img src={Logo} alt="logo" className="header-logo" />
       </div>
       <div className="header-right">
         <ul className={`header-list ${menuOpen ? "open" : ""}`}>

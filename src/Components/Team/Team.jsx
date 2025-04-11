@@ -2,6 +2,12 @@ import React from "react";
 import "./style.css";
 import { useTranslation } from "react-i18next";
 
+import Saba from "/public/team/Saba.png";
+import Tika from "/public/team/Tika.png";
+import Tornike from "/public/team/Tornike.png";
+import Zura from "/public/team/Zura.png";
+import Linkedin from "/public/team/linkedin.png";
+
 const Team = () => {
   const { t } = useTranslation();
   return (
@@ -11,11 +17,7 @@ const Team = () => {
         <div className="team-card-wrapper">
           <div className="team-card">
             <div className="image-wrapper">
-              <img
-                className="team-card-image"
-                src="/public/team/tika.png"
-                alt=""
-              />
+              <img className="team-card-image" src={Tika} alt="" />
             </div>
             <div className="card-bot">
               <div className="card-left">
@@ -27,18 +29,14 @@ const Team = () => {
                   href="https://www.linkedin.com/in/tikamatsiashvili/"
                   target="_blank"
                 >
-                  <img src="/public/team/linkedin.png" alt="" />
+                  <img src={Linkedin} alt="" />
                 </a>
               </div>
             </div>
           </div>
           <div className="team-card">
             <div className="image-wrapper">
-              <img
-                className="team-card-image"
-                src="/public/team/saba.png"
-                alt=""
-              />
+              <img className="team-card-image" src={Saba} alt="" />
             </div>
             <div className="card-bot">
               <div className="card-left">
@@ -50,18 +48,14 @@ const Team = () => {
                   href="https://www.linkedin.com/in/saba-shagidze/"
                   target="_blank"
                 >
-                  <img src="/public/team/linkedin.png" alt="" />
+                  <img src={Linkedin} alt="" />
                 </a>
               </div>
             </div>
           </div>
           <div className="team-card">
             <div className="image-wrapper">
-              <img
-                className="team-card-image"
-                src="/public/team/zura.png"
-                alt=""
-              />
+              <img className="team-card-image" src={Zura} alt="" />
             </div>
             <div className="card-bot">
               <div className="card-left">
@@ -69,19 +63,18 @@ const Team = () => {
                 <p>CMO</p>
               </div>
               <div className="card-right">
-                <a href="https://www.linkedin.com/in/zura-wiklauri-b2753a244/" target="blank">
-                  <img src="/public/team/linkedin.png" alt="" />
+                <a
+                  href="https://www.linkedin.com/in/zura-wiklauri-b2753a244/"
+                  target="_blank"
+                >
+                  <img src={Linkedin} alt="" />
                 </a>
               </div>
             </div>
           </div>
           <div className="team-card">
             <div className="image-wrapper">
-              <img
-                className="team-card-image"
-                src="public/team/tornike.png"
-                alt=""
-              />
+              <img className="team-card-image" src={Tornike} alt="" />
             </div>
             <div className="card-bot">
               <div className="card-left">
@@ -89,8 +82,11 @@ const Team = () => {
                 <p>COO</p>
               </div>
               <div className="card-right">
-                <a href="https://www.linkedin.com/in/tornikeramazashvili/" target="_blank">
-                  <img src="public/team/linkedin.png" alt="" />
+                <a
+                  href="https://www.linkedin.com/in/tornikeramazashvili/"
+                  target="_blank"
+                >
+                  <img src={Linkedin} alt="" />
                 </a>
               </div>
             </div>
