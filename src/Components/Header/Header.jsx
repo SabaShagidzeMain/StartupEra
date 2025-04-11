@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./style.css";
 
-import Logo from "/public/logo/logowhite.png";
+import Logo from "/public/logo/logoWhite.png";
 
 import i18next from "../../i18n";
 
